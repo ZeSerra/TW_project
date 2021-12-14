@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main_style.css')}}">
+</head>
+<body>
+
+	<h1>
+	<img src="{{ url_for('static', filename='images/account_symbol.svg')}}" alt="Account Symbol">
+	José Serra
+	<div class="dropdown">
+	  <button class="dropbtn">menu</button>
+	  <div class="dropdown-content dropdown-menu-right">
+		<a href="myaccount.html">My account</a>
+		<a href="#">Transctions</a>
+		<a href="#">Bank statment</a>
+	</div>
+	</h1>
+
+	<div class="container">
+		<div class="box">
+			<p> 1600€ </p>
+		</div>
+		<div class="box">
+			<p> 50$ </p>
+		</div>
+		<div class="box">
+			<p> 200L </p>
+		</div>
+	</div>
+	
+	<div class="pieContainer">
+      <div class="pieBackground"></div>
+      <div id="pieSlice1" class="hold"><div class="pie"></div></div>
+      <div id="pieSlice2" class="hold"><div class="pie"></div></div>
+      <div id="pieSlice3" class="hold"><div class="pie"></div></div>
+      <div id="pieSlice4" class="hold"><div class="pie"></div></div>
+      <div id="pieSlice5" class="hold"><div class="pie"></div></div>
+      <div id="pieSlice6" class="hold"><div class="pie"></div></div>
+  </div>
+	
+	
+</div>
+
+</body>
+</html>
